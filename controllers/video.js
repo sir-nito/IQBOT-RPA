@@ -14,7 +14,7 @@ function saveVideo(req, res) {
 
     video.nombre = params.nombre;
     video.descripcion = params.descripcion;
-    video.imagen = '';
+    video.imagen = '';         
     video.video = '';
     video.categoria = params.categoria;
     video.direccion = params.direccion;
